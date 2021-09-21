@@ -121,5 +121,14 @@ Which file do you update to make Ansible run the playbook on a specific machine?
 Which URL do you navigate to in order to check that the ELK server is running?
  - http://[your.ELK-VM.External.IP]:5601/app/kibana
 
+#Kibana Dashboard
 ![Kibana Dashboard](https://github.com/mitsu0921/UCB-ELK-Stack-Project/blob/main/Diagrams/Kibana.png?raw=true)
+
 ![Kibana Dashboard2](https://github.com/mitsu0921/UCB-ELK-Stack-Project/blob/main/Diagrams/Kibana%202.png?raw=true)
+
+The commands needed to run the Ansible configuration for the Elk-Server are:
+
+- ssh azadmin@JumpBox(Public IP)
+- sudo docker container list -a (locate your ansible container)
+- sudo docker start container (name of the container)
+- sudo docker attach container (name of the container)
