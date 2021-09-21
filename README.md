@@ -1,4 +1,4 @@
-# UCB_ELK_Stack_Project
+# UCB ELK Stack Project
 
 The files within this repository were used to configure the network below: 
 
@@ -27,6 +27,16 @@ What aspect of security do load balancers protect?
  What is the advantage of a jump box?
   
 * A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an orgigination point to connect to other servers or untrusted environments. 
+
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the Logs and system traffic. 
+
+* What does Filebeat watch for?
+..* Filebeat watches for any information in the file system which has been changed and when the changes occurred.
+..* Filebeat watches for log files/locations and collects log events. 
+
+*What does Metricbeat record?
+..* Metricbeat takes the metrics and statics that collect and ships them to the output you specify. 
+..* Metricbeat records metric and statistical data from the operating system and from services running on the server. 
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -60,7 +70,14 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+-What is the main advantage of automating configuration with Ansible?
+*Free: Ansible is an open-source tool.
+*Very simple to set up and use: No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
+*Powerful: Ansible lets you model even highly complex IT workflows.
+*Flexible: You can orchestrate the entire application environment no matter where it’s deployed. You can also customize it based on your needs.
+*Agentless: You don’t need to install any other software or firewall ports on the client systems you want to automate. You also don’t have to set up a separate management structure.
+*Efficient: Because you don’t need to install any extra software, there’s more room for application resources on your server.
+
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
