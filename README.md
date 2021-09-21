@@ -22,11 +22,11 @@ Load balancing ensures that the application will be highly efficient, in additio
 
 What aspect of security do load balancers protect? 
 
-..* A load balancer intelligently distributes traffic from clients accross multiple servers without the clients having to understand how many servers are in use or how they are configured. The load balancer sites between the clients and the server to enhance the user experience by providing additional security, performance, and resilience and simplify scaling your website. 
+* A load balancer intelligently distributes traffic from clients accross multiple servers without the clients having to understand how many servers are in use or how they are configured. The load balancer sites between the clients and the server to enhance the user experience by providing additional security, performance, and resilience and simplify scaling your website. 
 
  What is the advantage of a jump box?
   
- ..* A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an orgigination point to connect to other servers or untrusted environments. 
+* A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an orgigination point to connect to other servers or untrusted environments. 
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
