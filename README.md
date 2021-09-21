@@ -112,12 +112,12 @@ SSH into the control node and follow the steps below:
 - Update the host file to include the IP addresses of Web-1, Web-2, and ELK server as well as assign python3. 
 - Run the playbook, and navigate to the ELK server to check that the installation worked as expected.
 
-- Which file is the playbook? Where do you copy it?
+Which file is the playbook? Where do you copy it?
  - /etc/ansible/filebeat-config.yml 
 
-- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
  - Edit the /etc/ansible/hosts file to add webserver/elkserver IP address. 
  
--Which URL do you navigate to in order to check that the ELK server is running?
+Which URL do you navigate to in order to check that the ELK server is running?
  - http://[your.ELK-VM.External.IP]:5601/app/kibana
 
