@@ -2,4 +2,4 @@
 
 The files within this repository were used to configure the network below: 
 
-
+![Image of Topology](https://github.com/mitsu0921/UCB-ELK-Stack-Project/blob/main/Diagrams/ELK%20Stack%20Topology.png?raw=true)
