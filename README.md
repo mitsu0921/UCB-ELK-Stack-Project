@@ -26,7 +26,7 @@ What aspect of security do load balancers protect?
 
  What is the advantage of a jump box?
   
-* A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an orgigination point to connect to other servers or untrusted environments. 
+* A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the Logs and system traffic. 
 
